@@ -1,16 +1,6 @@
-/* 
-Thanks to /dev/null#5726 for helping me convert this into a bot for the Dragon Injector Server
-
+/* Licensed under GNU GPL V3
+Written by Adran and Dev\Null
 Version 1.2.2
-
-1.2.2 - Minor changes and setting config stuff
-1.2.1 - Added "testers" to excluded roles
-1.2.0 - Changed Release yet again, added autodelete section.
-1.1.8 - Changed release date
-1.1.7 - fixed triggers
-1.1.6 - Added Sale to keywords, changed release date and rephrased the replies.
-1.1.5 - Added Beta Tester to excluded roles
-1.1.4 - Added order/purchase stuff, fixed cost.
 */
 
 /* Requirements */
