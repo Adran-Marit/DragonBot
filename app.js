@@ -17,7 +17,7 @@ client.on('ready',() => {
 });
 
 /* Checks trigger words, <#channelID> links to channel */
-const triggers = [ { check: /^(?=.*\b(dragon ?injector|di)\b)(?=.*\b(preoder|pre-order)\b).*$/i, phrases: ['No preorders, sorry. Keep an eye on <#489199851171610649> Backorders are possible.', 'No preorders, sorry. Keep an eye on <#489199851171610649> Backorders are possible.', 'No preorders, sorry. Keep an eye on <#489199851171610649>. Backorders are possible.'] },
+const triggers = [ { check: /^(?=.*\b(dragon ?injector|di)\b)(?=.*\b(preorder|pre-order)\b).*$/i, phrases: ['No preorders, sorry. Keep an eye on <#489199851171610649> Backorders are possible.', 'No preorders, sorry. Keep an eye on <#489199851171610649> Backorders are possible.', 'No preorders, sorry. Keep an eye on <#489199851171610649>. Backorders are possible.'] },
  { check: /^(?=.*\b(dragon ?injector|di)\b)(?=.*\b(order|buy|purchase|sale)\b).*$/i, phrases: ['The DragonInjector is currently not available to buy, release is later this month.(October)', 'The DragonInjector is currently not available to buy, expected release is later this month.(October)', 'The DragonInjector is currently not available to buy, expected release is later this month.(October)' ] },
     { check: /^(?=.*\b(dragon ?injector|di)\b)(?=.*\b(cost|price)\b).*$/i, phrases: ['Cost will be $28 USD plus postage and handling. See <#492513459385401346>.', 'Cost will be $28 USD plus postage and handling. See <#492513459385401346>.', 'Cost will be $28 USD plus postage and handling. See <#492513459385401346>.' ] }
 ]
