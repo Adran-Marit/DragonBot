@@ -11,5 +11,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adran, Dev/Null",
-  "license": "GNU GPL v3"
+  "license": "GPL-2.0-or-later"
 }
